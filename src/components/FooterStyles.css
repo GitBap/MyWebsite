@@ -1,0 +1,51 @@
+.footer {
+  width: 100%;
+  padding: 6rem 0;
+  background-color: rgb(29, 27, 27);
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+
+.footerContainerOne {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.location {
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.footerPhone {
+  margin-bottom: 0.8rem;
+}
+
+.footerContainerTwo {
+  height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+.footerContainerTwo button {
+  padding: 0.5rem;
+  margin: 0.3rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
