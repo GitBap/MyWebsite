@@ -1,0 +1,30 @@
+.Hero-img {
+  width: 100%;
+  background-color: rgb(29, 27, 27);
+  height: 60vh;
+  position: relative;
+}
+
+.Heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hero-img h1 {
+  font-size: 2.4rem;
+}
+
+.Hero-img p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .Hero-img h1 {
+    font-size: 2rem;
+  }
+}
