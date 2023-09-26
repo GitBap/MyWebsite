@@ -14,8 +14,8 @@ const Main = () => {
           <Link to="/Projects" class="btn">
             Projects
           </Link>
-          <Link to="/About" class="btn-transparent">
-            About me
+          <Link to="/Contact" class="btn-transparent">
+            Contact
           </Link>
         </div>
       </div>
