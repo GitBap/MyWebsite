@@ -12,7 +12,7 @@ const Footer = () => {
           <div class="location">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>MTL</p>
+              <p>Montreal, Canada</p>
             </div>
           </div>
           <div class="footerPhone">
@@ -21,7 +21,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />{" "}
-              123-1234-1234
+              438-923-7308
             </h4>
           </div>
           <div class="footerMail">
