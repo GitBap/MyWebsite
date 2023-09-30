@@ -30,7 +30,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "fff", marginRight: "2rem" }}
               />{" "}
-              @gmail.com
+              baptistecoding@gmail.com
             </h4>
           </div>
         </div>

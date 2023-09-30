@@ -9,16 +9,16 @@ export const ProjectCard = (props) => {
       <h2 class="project-title">{props.title}</h2>
       <div class="description">
         <p>{props.text}</p>
-        <button class="ProjectButtons">
-          <NavLink to={props.view} class="button">
+        <div class="ProjectButtons">
+          <NavLink to={props.view} className="pbutton">
             View
           </NavLink>
-        </button>
-        <button class="ProjectButtons">
-          <NavLink to={props.source} class="button">
+        </div>
+        <div class="ProjectButtons">
+          <NavLink to={props.source} className="pbutton">
             GitHub
           </NavLink>
-        </button>
+        </div>
       </div>
     </div>
   );
