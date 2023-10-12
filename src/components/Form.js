@@ -4,18 +4,14 @@ import React from "react";
 
 const Form = () => {
   return (
-    <div class="form">
-      <form>
-        <label>Your name</label>
-        <input type="text" required></input>
-        <label>Email</label>
-        <input type="email" required></input>
-        <label>Subject</label>
-        <input type="text" required></input>
-        <label>Message</label>
-        <textarea rows="6" placeholder="Type your message" required />
-        <button class="button">Submit</button>
-      </form>
+    <div class="contact-container">
+      <a href="tel:+438-923-7308" class="phone">
+        Call me
+      </a>{" "}
+      <br></br>
+      <a href="mailto:baptistecoding@gmail.com" class="email">
+        Email me
+      </a>
     </div>
   );
 };

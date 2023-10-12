@@ -27,3 +27,37 @@ form button {
   margin-bottom: 0.5rem;
   padding: 0.5rem;
 }
+
+a.phone:link,
+a.phone:visited,
+a.email:link,
+a.email:visited {
+  background-color: #1f1f1f;
+  color: white;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 40px 100px;
+  box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  transition: 0.4s ease;
+  font-size: larger;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 3rem;
+}
+
+a.phone:hover,
+a.email:hover {
+  box-shadow: 15px 15px 20px #1a1a1a, -12px -12px 17px #242424;
+  transition: 0.4s ease;
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: auto;
+  display: block;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+}
