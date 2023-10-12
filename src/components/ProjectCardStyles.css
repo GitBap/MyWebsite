@@ -4,14 +4,16 @@
 }
 
 .project-card {
-  border: 1px solid white;
+  border-radius: 15px;
   text-align: center;
   padding: 1.2rem 1rem;
-  background-color: #474e5d;
+  background-color: #1f1f1f;
+  box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
+  transition: 0.4s ease;
 }
 
 .project-card:hover {
-  background-color: rgb(29, 27, 27);
+  background-color: rgb(20, 21, 29);
 }
 
 .project-container2 {
@@ -48,9 +50,8 @@
   padding: 0.5rem;
 }
 
-.ProjectButtons {
-  padding: 2.5rem 2;
-}
+/* .ProjectButtons {
+} */
 
 @media screen and (max-width: 740px) {
   .project-container2 {

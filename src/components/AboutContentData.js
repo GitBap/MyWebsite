@@ -14,7 +14,7 @@ const Timeline = () => {
             McGill University School of Continuing Studies - Professional
             Development Certificate in Full Stack JavaScript Development
           </h3>
-          <h5>2023 - Current</h5>
+          <h5>2023 - 2023</h5>
           <p>
             The Professional Development Certificate in Full Stack JavaScript
             Development is a non-credit program designed to equip participants

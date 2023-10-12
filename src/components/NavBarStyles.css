@@ -55,4 +55,8 @@
   .hamburger {
     display: initial;
   }
+
+  .hamburger:hover {
+    cursor: pointer;
+  }
 }

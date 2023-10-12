@@ -9,8 +9,25 @@ const Projects = () => {
   return (
     <div>
       <NavBar />
-      <Hero heading="PROJECTS" text="My recent projects" />
+      <Hero heading="PROJECTS" text="These are my main recent projects." />
       <Work />
+      <div
+        style={{
+          textAlign: "center",
+          paddingTop: "10px",
+          paddingBottom: "30px",
+        }}
+      >
+        <h1> For more of projects, please take a look at my github.</h1>
+        <a
+          href="https://github.com/GitBap"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ display: "block", marginTop: "20px" }}
+        >
+          Visit My GitHub
+        </a>
+      </div>
       <Footer />
     </div>
   );

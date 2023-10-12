@@ -1,4 +1,6 @@
 import "./FooterStyles.css";
+import handelolivierresume from "../assets/handelolivierresume.pdf";
+import handelolivierresume2 from "../assets/handelolivierresumeFR.pdf";
 
 import React from "react";
 
@@ -36,8 +38,13 @@ const Footer = () => {
         </div>
 
         <div class="footerContainerTwo">
-          <button>Download CV</button>
-          <button>Télécharger CV</button>
+          <a href={handelolivierresume} download="handelolivierresume.pdf">
+            <button class="ftbtn1"> Download CV </button>
+          </a>
+
+          <a href={handelolivierresume2} download="handelolivierresumeFR.pdf">
+            <button class="ftbtn2">Télecharger CV</button>
+          </a>
         </div>
       </div>
     </div>
