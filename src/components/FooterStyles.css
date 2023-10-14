@@ -58,4 +58,7 @@
     grid-template-columns: 1fr;
     width: 70%;
   }
+  .footerContainerTwo {
+    width: 70%;
+  }
 }
