@@ -5,7 +5,7 @@ import React from "react";
 const Form = () => {
   return (
     <div class="contact-container">
-      <a href="tel:+438-923-7308" class="phone">
+      <a href="tel:438-923-7308" class="phone">
         Call me
       </a>{" "}
       <br></br>
