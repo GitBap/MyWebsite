@@ -24,7 +24,7 @@ const Projects = () => {
           rel="noopener noreferrer"
           style={{ display: "block", marginTop: "20px" }}
         >
-          Visit My GitHub
+          Click here for my GitHub
         </a>
       </div>
       <Footer />

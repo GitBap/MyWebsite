@@ -40,11 +40,14 @@ a {
   border: 2px solid white;
   font-weight: 600;
   cursor: pointer;
-  padding: 12px 32px;
 }
 
 .btn:hover,
 .btn-transparent:hover {
   background: rgb(151, 151, 228);
   color: black;
+}
+
+.content {
+  width: 90%;
 }
