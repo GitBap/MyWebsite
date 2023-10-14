@@ -5,7 +5,7 @@ import React from "react";
 export const ProjectCard = (props) => {
   return (
     <div class="project-card">
-      <img src={props.imgsrc} alt="image" />
+      <img src={props.imgsrc} />
       <h2 class="project-title">{props.title}</h2>
       <div class="description">
         <p>{props.text}</p>
