@@ -26,10 +26,10 @@ const NavBar = () => {
         <h1>Portfolio</h1>
       </Link>
       <div class={click ? "nav-menu active" : "nav-menu"}>
-        <a href="/">Home</a>
-        <a href="/Projects">Projects</a>
-        <a href="/About">About</a>
-        <a href="/Contact">Contact</a>
+        <Link to="/">Home</Link>
+        <Link href="/Projects">Projects</Link>
+        <Link href="/About">About</Link>
+        <Link href="/Contact">Contact</Link>
       </div>
       <div class="hamburger" onClick={handleClick}>
         {click ? (
