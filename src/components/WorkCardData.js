@@ -7,7 +7,7 @@ const ProjectCardData = [
     imgsrc: pro1,
     title: "PollsPlanet",
     text: "PollsPlanet is an evolving web application empowering organizations to design and distribute surveys to enable data-driven decision-making.",
-    view: "google.com",
+    view: "https://github.com/GitBap/PollsPlanet",
     source: "https://github.com/GitBap/PollsPlanet",
   },
   {
