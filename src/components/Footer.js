@@ -38,11 +38,11 @@ const Footer = () => {
         </div>
 
         <div class="footerContainerTwo">
-          <a href={handelolivierresume} download="handelolivierresume.pdf">
+          <a href={handelolivierresume} download="resume2023.pdf">
             <button class="ftbtn1"> Download CV </button>
           </a>
 
-          <a href={handelolivierresume2} download="handelolivierresumeFR.pdf">
+          <a href={handelolivierresume2} download="resume2023fr.pdf">
             <button class="ftbtn2">Télecharger CV</button>
           </a>
         </div>
